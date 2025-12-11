@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="coursesForm">
+      <input type="text" id="courseName" placeholder="Enter the course name" />
+      <input type="text" id="courseCode" placeholder="Enter the course code" />
+      <input
+        type="text"
+        id="courseDescription"
+        placeholder="Enter the course discreption"
+      />
+      <input
+        type="number"
+        id="courseCredits"
+        placeholder="Enter the course credits"
+      />
+
+      <button id="previewBtn">Preview</button>
+    </form>
+
+    <h2>Preview:</h2>
+
+    <p id="courses"></p>
+
+    <button id="saveBtn" style="display: none">Save to local storage</button>
+  </body>
+  <script src="formSubmission.js"></script>
+</html>
